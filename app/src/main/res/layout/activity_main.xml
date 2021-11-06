@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#123"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_marginBottom="30sp"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:src="@drawable/menugamehaikhongbontam"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/choitiep"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:background="@drawable/backgroungbuttonmenu"
+        android:text="@string/choitiep"
+        android:textColor="#ddd"
+        android:textSize="18sp" />
+    <Button
+        android:textSize="18sp"
+        android:textColor="#ddd"
+        android:id="@+id/playgame2048"
+        android:layout_margin="8sp"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroungbuttonmenu"
+        android:text="@string/choimoi"/>
+
+</LinearLayout>
